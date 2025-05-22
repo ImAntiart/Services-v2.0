@@ -181,6 +181,8 @@ height: 152px;
 .services__header-h1 h1 {
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
     gap: 12px;
     font-family: "TT Lakes";
     font-weight: 700;
@@ -370,3 +372,224 @@ height: 152px;
         display: none;
     }
 } 
+
+
+
+/** @format */
+
+.about-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 322px;
+}
+
+@media (min-width: 784px) {
+  .about-company {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 784px;
+    height: 208px;
+  }
+}
+
+/*         justify-content: center; */
+/*         align-items: center; */
+/*         width: 768px; */
+
+@media (min-width: 1121px) {
+  .about-company {
+    align-items: flex-start;
+    width: 1092.35px;
+    height: 307px;
+    /*         margin-top: 16.22px; */
+  }
+}
+
+br {
+  display: contents;
+}
+
+@media (min-width: 784px) {
+  br {
+    display: block;
+  }
+}
+
+.about-company__br {
+  display: contents;
+}
+
+@media (min-width: 1121px) {
+
+.about-company__br {
+    display: block;
+}
+}
+
+.about-company__info {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 154px;
+  gap: 16px;
+  /*     margin-left: 16px; */
+  text-overflow: ellipsis;
+  font-family: "Lakes";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+}
+
+@media (min-width: 784px) {
+  .about-company__info {
+    /*         margin-left: 24px; */
+    display: flex;
+    flex-direction: column;
+    /*         align-items: center; */
+    /*         justify-content: space-between; */
+
+    padding-left: 24px;
+    width: 346px;
+    height: 208px;
+  }
+}
+
+@media (min-width: 1121px) {
+  .about-company__info {
+/*     align-items: flex-start; */
+    padding-left: 34px;
+    /*         margin-left: 34px; */
+    width: 490px;
+    height: 198px;
+  }
+}
+
+.about-company__text {
+  width: 288px;
+  height: 90px;
+}
+
+.about-company__text--main {
+  /*     padding-bottom: 1.2em; */
+  /*     margin-bottom: 2em;  */
+}
+
+@media (min-width: 784px) {
+  .about-company__text {
+    /*         display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+    width: 312px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 1121px) {
+  .about-company__text {
+    width: 490px;
+    height: 160px;
+  }
+}
+
+.about-company__text--secondary {
+  display: none;
+}
+
+.about-company__text--third {
+  display: none;
+}
+
+@media (min-width: 784px) {
+  .about-company__text--secondary {
+    display: inline-block;
+  }
+}
+
+/* @media (min-width: 784px) {
+    .descritionTextTwo {
+        display: inline-block; 
+    }
+} */
+
+@media (min-width: 1121px) {
+  .about-company__text--secondary {
+    display: inline;
+  }
+
+  .about-company__text--third {
+    display: inline;
+  }
+}
+
+.about-company__read-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 132px;
+  height: 24px;
+  cursor: pointer;
+  font-family: "Lakes";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.about-company__read-more img {
+  width: 24px;
+}
+
+.about-company__read-more-text {
+  padding: 0;
+  font-family: "Lakes";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  width: 100px;
+  height: 24px;
+  /*     padding-left: 8px; */
+  /* margin-left: 8px; */
+}
+
+.about-company__image {
+  width: 320px;
+  height: 176px;
+}
+
+.about-company__image img {
+  width: 320px;
+  height: 176px;
+  object-fit: cover;
+}
+
+@media (min-width: 784px) {
+  .about-company__image {
+    width: 360px;
+    height: 208px;
+  }
+
+  .about-company__image img {
+    border-radius: 5px;
+    width: 360px;
+    height: 208px;
+  }
+}
+
+@media (min-width: 1121px) {
+  .about-company__image {
+    width: 531.35px;
+    height: 307px;
+  }
+
+  .about-company__image img {
+    border-radius: 5px;
+    /*         margin-left: 36px; */
+    width: 531.35px;
+    height: 307px;
+  }
+}
